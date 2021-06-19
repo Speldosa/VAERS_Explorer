@@ -4,7 +4,7 @@ keywords = c("deafnesss", "hearing", "tinnitus", "hyperacusis")
 # Load necessary packages.
 library(readr)
 
-# Imort datasets. Note that you have to download these yourself and place them in the folder "2021VAERSData". You can download these at: https://vaers.hhs.gov/data/datasets.html?. I've been using the data contained in the 2021 Zip File.
+# Imort datasets. Note that you have to download these yourself and place them in the folder "2021VAERSData". You can download these at: https://vaers.hhs.gov/data/datasets.html. I've been using the data contained in the 2021 Zip File.
 dataset2021VAERSDATA <- read_csv("2021VAERSData/2021VAERSDATA.csv")
 dataset2021VAERSSYMPTOMS <- read_csv("2021VAERSData/2021VAERSSYMPTOMS.csv")
 dataset2021VAERSVAX <- read_csv("2021VAERSData/2021VAERSVAX.csv")
